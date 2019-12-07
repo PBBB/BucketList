@@ -18,6 +18,7 @@
 		2BAC9135239A0E59004793C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BAC9134239A0E59004793C5 /* Preview Assets.xcassets */; };
 		2BAC9138239A0E59004793C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BAC9136239A0E59004793C5 /* LaunchScreen.storyboard */; };
 		2BAC9140239A0EDE004793C5 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAC913F239A0EDE004793C5 /* MapView.swift */; };
+		2BAE24E6239BB70300638D4F /* UnlockedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAE24E5239BB70300638D4F /* UnlockedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		2BAC9137239A0E59004793C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BAC9139239A0E59004793C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BAC913F239A0EDE004793C5 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		2BAE24E5239BB70300638D4F /* UnlockedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnlockedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				2BAC912B239A0E56004793C5 /* AppDelegate.swift */,
 				2BAC912D239A0E56004793C5 /* SceneDelegate.swift */,
 				2BAC912F239A0E56004793C5 /* ContentView.swift */,
+				2BAE24E5239BB70300638D4F /* UnlockedView.swift */,
 				2BAC913F239A0EDE004793C5 /* MapView.swift */,
 				2B3819FF239B6350000B0A49 /* EditView.swift */,
 				2B381A01239B6560000B0A49 /* Result.swift */,
@@ -163,6 +166,7 @@
 			files = (
 				2BAC912C239A0E56004793C5 /* AppDelegate.swift in Sources */,
 				2BAC9140239A0EDE004793C5 /* MapView.swift in Sources */,
+				2BAE24E6239BB70300638D4F /* UnlockedView.swift in Sources */,
 				2B381A00239B6350000B0A49 /* EditView.swift in Sources */,
 				2BAC912E239A0E56004793C5 /* SceneDelegate.swift in Sources */,
 				2B381A02239B6560000B0A49 /* Result.swift in Sources */,
