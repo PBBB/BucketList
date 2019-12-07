@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B3819FE239B62D8000B0A49 /* MKPointAnnotation-ObeservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3819FD239B62D8000B0A49 /* MKPointAnnotation-ObeservableObject.swift */; };
+		2B381A00239B6350000B0A49 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3819FF239B6350000B0A49 /* EditView.swift */; };
+		2B381A02239B6560000B0A49 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B381A01239B6560000B0A49 /* Result.swift */; };
 		2BAC912C239A0E56004793C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAC912B239A0E56004793C5 /* AppDelegate.swift */; };
 		2BAC912E239A0E56004793C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAC912D239A0E56004793C5 /* SceneDelegate.swift */; };
 		2BAC9130239A0E56004793C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAC912F239A0E56004793C5 /* ContentView.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B3819FD239B62D8000B0A49 /* MKPointAnnotation-ObeservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-ObeservableObject.swift"; sourceTree = "<group>"; };
+		2B3819FF239B6350000B0A49 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		2B381A01239B6560000B0A49 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		2BAC9128239A0E56004793C5 /* BucketList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BucketList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BAC912B239A0E56004793C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BAC912D239A0E56004793C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +68,9 @@
 				2BAC912D239A0E56004793C5 /* SceneDelegate.swift */,
 				2BAC912F239A0E56004793C5 /* ContentView.swift */,
 				2BAC913F239A0EDE004793C5 /* MapView.swift */,
+				2B3819FF239B6350000B0A49 /* EditView.swift */,
+				2B381A01239B6560000B0A49 /* Result.swift */,
+				2B3819FD239B62D8000B0A49 /* MKPointAnnotation-ObeservableObject.swift */,
 				2BAC9131239A0E59004793C5 /* Assets.xcassets */,
 				2BAC9136239A0E59004793C5 /* LaunchScreen.storyboard */,
 				2BAC9139239A0E59004793C5 /* Info.plist */,
@@ -151,7 +160,10 @@
 			files = (
 				2BAC912C239A0E56004793C5 /* AppDelegate.swift in Sources */,
 				2BAC9140239A0EDE004793C5 /* MapView.swift in Sources */,
+				2B381A00239B6350000B0A49 /* EditView.swift in Sources */,
 				2BAC912E239A0E56004793C5 /* SceneDelegate.swift in Sources */,
+				2B381A02239B6560000B0A49 /* Result.swift in Sources */,
+				2B3819FE239B62D8000B0A49 /* MKPointAnnotation-ObeservableObject.swift in Sources */,
 				2BAC9130239A0E56004793C5 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
