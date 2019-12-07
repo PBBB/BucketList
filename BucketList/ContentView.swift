@@ -27,11 +27,13 @@ struct ContentView: View {
                 .background(Color.blue)
                 .foregroundColor(.white)
                 .clipShape(Capsule())
+                .alert(isPresented: $isUnlockFailed) {
+                    Alert(title: Text(alertTitle), message: Text(alertMessage), dismissButton: .default(Text("OK")))
+                }
             }
         }
-        .alert(isPresented: $isUnlockFailed) {
-            Alert(title: Text(alertTitle), message: Text(alertMessage), dismissButton: .default(Text("OK")))
-        }
+        
+        .onAppear(perform: authencate)
     }
     
     
